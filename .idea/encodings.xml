@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/projects/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/inventory-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/price-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/product-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

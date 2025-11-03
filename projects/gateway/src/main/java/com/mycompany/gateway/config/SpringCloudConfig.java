@@ -27,8 +27,9 @@ public class SpringCloudConfig {
      */
     public RouteLocator buildRouteLocator(RouteLocatorBuilder builder) {
         return builder.routes()
-                .route(r -> r.path("/price/**").uri("http://localhost:8002"))
+                .route(r -> r.path("/price/**").filters(f -> f.setResponseHeader("CustomRespHeader", "Some header")).uri("http://localhost:8002"))
                 .route(r -> r.path("/inventory/**").uri("http://localhost:8003"))
                 .build();
     }
 }
+
